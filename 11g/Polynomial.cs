@@ -9,7 +9,7 @@ namespace _11g
     internal abstract class Polynomial : IExpression, ISolvable
     {
         protected List<double> coefficients;
-        public Polynomial(List<double> coefficients>)
+        public Polynomial(List<double> coefficients)
         {
             this.coefficients = coefficients;
         }
@@ -24,7 +24,10 @@ namespace _11g
             }
             return res;
         }
-        public abstract List<double> Solve();
+        public virtual List<double> Solve()
+        {
+            return Evaluate(0);
+        }
         public abstract List<double> Evaluate(double a);
     }
 }
