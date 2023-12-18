@@ -14,14 +14,20 @@ namespace _11g
             double b = double.Parse(Console.ReadLine());
             Solve(new Binomial(a, b));
         }
-        static void Solve(Binomial binomial)
+        static void Solve(ISolvable solvable)
         {
-            List<double> result=binomial.Solve();
-            if (result==null)
-                Console.WriteLine("{0}=0 has infinitely many solutions!", binomial);
-            else if (result.Count ==0)
-                Console.WriteLine("{0}=0 has no solutions!", binomial);
-            else Console.WriteLine("{0}=0 has 1 solution: {1}", binomial, result[0]);
+            List<double> result = solvable.Solve();
+            if (result == null)
+                Console.WriteLine("{0}=0 has infinitely many solutions!", solvable);
+            else if (result.Count == 0)
+                Console.WriteLine("{0}=0 has no solutions!", solvable);
+            else
+            {
+                Console.WriteLine("{0}=0 has {1} solutions: ", solvable, result.Count);
+                for (int i = 0; i < result.Count; i++)
+                    Console.Write(result[i] + " ");
+                Console.WriteLine();
+            }
         }
     }
 }
