@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _11g
 {
-    internal class Trinomial : Binomial
+    public class Trinomial : Binomial
     {
         public Trinomial(double a, double b, double c) : base(b, c)
         {

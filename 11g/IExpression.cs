@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _11g
 {
-    interface IExpression
+    public interface IExpression
     {
         double Calculate(double x);
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _11g
 {
-    internal abstract class Polynomial : IExpression, ISolvable
+    public abstract class Polynomial : IExpression, ISolvable
     {
         protected List<double> coefficients;
         public Polynomial(List<double> coefficients)

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _11g
 {
-    internal interface ISolvable
+    public interface ISolvable
     {
         List<double> Solve();
         List<double> Evaluate(double a);

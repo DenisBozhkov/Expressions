@@ -5,3 +5,10 @@ D:\_ACER\Desktop\МГ\ООП\Expressions\Нова папка\Expressions\11g\bin
 D:\_ACER\Desktop\МГ\ООП\Expressions\Нова папка\Expressions\11g\bin\Debug\11g.pdb
 D:\_ACER\Desktop\МГ\ООП\Expressions\Нова папка\Expressions\11g\obj\Debug\11g.exe
 D:\_ACER\Desktop\МГ\ООП\Expressions\Нова папка\Expressions\11g\obj\Debug\11g.pdb
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\bin\Debug\11g.pdb
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\obj\Debug\11g.csproj.AssemblyReference.cache
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\obj\Debug\11g.csproj.CoreCompileInputs.cache
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\obj\Debug\11g.pdb
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\bin\Debug\11g.dll.config
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\bin\Debug\11g.dll
+D:\_ACER\Desktop\МГ\ООП\11g\Expressions\Нова папка\Expressions\11g\obj\Debug\11g.dll
